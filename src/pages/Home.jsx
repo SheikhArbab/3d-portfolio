@@ -4,7 +4,9 @@ const Home = () => {
     return (
         <div className="relative z-0 bg-primary">
 
-            <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+            <div className="bg-hero-pattern bg-cover bg-fixed bg-no-repeat bg-center relative">
+
+                <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-black opacity-90"/>
 
                 <C.Hero />
 

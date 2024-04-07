@@ -15,14 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    stics,
+    fiverr,
+    csv,
     threejs,
+    adam,
+    qasim,
+    adnan
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +45,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "MERN Developer",
       icon: mobile,
     },
     {
@@ -116,50 +115,37 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "MERN Developer",
+      company_name: "Super Tech Insitution",
+      icon: stics,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2023 - Jan 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using MERN and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
+    }, 
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Freelance Web Developer",
+      company_name: "Fiverr",
+      icon: fiverr,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    },  
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      company_name: "Cybersoft Vantage",
+      icon: csv,
+      iconBg: "#383E56",
+      date: "Jan 2024 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,42 +158,42 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "amazing and awesome service he us right on it and price is reasonable.",
+      name: "Adam Taher Ghali",
+      designation: "Founder",
+      company: "Prestige G, LLC",
+      image: adam,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Impressive work, Arbab! You did a great job!",
+      name: "Qasim Shamim",
+      designation: "CO-Founder",
+      company: "TechFlow LLC",
+      image: qasim
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Nice working with you aga bhi kuch howa tu rabata kroo gaa",
+      name: "Adnan Yousaf",
+      designation: "MERN Developer",
+      company: "Sysreforms International",
+      image: adnan,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Hoo Bank App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Hoo Bank app using react html css js and more...",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
@@ -215,13 +201,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: 'https://raw.githubusercontent.com/SheikhArbab/portfolio-assets/main/web%20app/2.webp',
+      source_code_link: "https://hoo-bank-r.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "SIMS Dashboard",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "SIMS Dashboard app using react js, node js, express js, mongodb, formik, yup, and more...",
       tags: [
         {
           name: "react",
@@ -232,33 +218,41 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "node",
           color: "pink-text-gradient",
         },
+        {
+          name: "mern",
+          color: "green-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image:"https://raw.githubusercontent.com/SheikhArbab/portfolio-assets/main/web%20app/sims_admin.webp",
+      source_code_link: "https://www.linkedin.com/feed/update/urn:li:activity:7146196486383456256/",
     },
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+        "blog platform app using react js, node js, express js, mongodb, formik, yup, and more...",
+        tags: [
+          {
+            name: "react",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "restapi",
+            color: "green-text-gradient",
+          },
+          {
+            name: "node",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "mern",
+            color: "green-text-gradient",
+          },
+        ],
+        image:"https://raw.githubusercontent.com/SheikhArbab/portfolio-assets/main/web%20app/blog.JPG",
+      source_code_link: "https://www.linkedin.com/feed/update/urn:li:activity:7157792950423371776/",
     },
   ];
   

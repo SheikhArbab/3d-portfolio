@@ -14,6 +14,28 @@
   color-scheme: dark;
 }
 
+html { 
+  cursor: url("/ufo.png"), default;
+}
+
+
+
+/* ----------------custom-scroll-bar------------------ */
+::-webkit-scrollbar {
+  width: 10px
+}
+
+::-webkit-scrollbar-track {
+  background-color: #081b29;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(-450deg, #b721d1, #014661);
+  border-radius: 25px
+}
+
+/* ----------------custom-scroll-bar------------------ */
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

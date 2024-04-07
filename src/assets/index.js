@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
+const logo = "https://raw.githubusercontent.com/SheikhArbab/portfolio-assets/main/logo/logo.webp"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import visit from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,22 +21,25 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import csv from "./company/csv.png";
+import fiverr from "./company/fiverr.png";
+import stics from "./company/stics.png";
+ 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import qasim from "./testimonial/qasim.jpg";
+import adam from "./testimonial/adam.jpg";
+import adnan from "./testimonial/adnan.jpg";
 
 export {
+  qasim,
+  adam,
+  adnan,
   logo,
   backend,
   creator,
   mobile,
   web,
-  github,
+  visit,
   menu,
   close,
   css,
@@ -52,11 +55,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  stics,
+  csv,
+  fiverr
 };
