@@ -230,9 +230,9 @@ import {
       source_code_link: "https://www.linkedin.com/feed/update/urn:li:activity:7146196486383456256/",
     },
     {
-      name: "Trip Guide",
+      name: "Blog platform",
       description:
-        "blog platform app using react js, node js, express js, mongodb, formik, yup, and more...",
+        "Blog platform app using react js, node js, express js, mongodb, formik, yup, and more...",
         tags: [
           {
             name: "react",
